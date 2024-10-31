@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container1">
+      <p>Warung Nasi Goreng Mamat</p>
+      <div>
+        <label for="input1">Nama Pelanggan</label>
+        <input id="input1" type="text" />
+      </div>
+      <div>
+        <p style="display: inline">Pilih Makanan</p>
+        <select id="select1">
+          <option selected hidden disabled>----- Select here ------</option>
+          <option value="Nasi Goreng">Nasi Goreng</option>
+          <option value="Nasi Goreng Spesial">Nasi Goreng Spesial</option>
+          <option value="Nasi Goreng Seafood">Nasi Goreng Seafood</option>
+        </select>
+      </div>
+      <div>
+        <p style="display: inline">Pilih Minuman</p>
+        <select id="select2">
+          <option selected hidden disabled>----- Select here ------</option>
+          <option value="Es Teh">Es Teh</option>
+          <option value="Es Jeruk">Es Jeruk</option>
+        </select>
+      </div>
+      <br />
+      <button>Tambah Pesanan</button>
+    </div>
+    <div class="container2">
+      <h1>Daftar Pesanan</h1>
+      <div class="listOrder"></div>
+    </div>
+    <script src="paket1.js"></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    display: flex;
+    width: 99vw;
+    height: 100%;
+    /* border: 1px solid; */
+}
+
+.container1{
+    width: 40%;
+    border-right: 1px solid;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+    background-color: #ff9fd3;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 95vh;
+    width: 60%;
+    padding-left: 12px;
+}
+
+button {
+    width: 140px;
+    height: 32px;
+}
+
+.listOrder{
+    width:100% ;
+    /* border: 1px solid; */
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.items{
+    width:max-content;
+    height: max-content;
+    border: 1px solid;
+}
